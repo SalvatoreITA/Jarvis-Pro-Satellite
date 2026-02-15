@@ -9,12 +9,12 @@
 
 **Jarvis Pro** è un firmware personalizzato per **ESP32-S3** che trasforma il tuo dispositivo in un satellite vocale avanzato per Home Assistant.
 
-## 🚀 Guida Completa:
-Trovi la guida dettagliata sul sito: [ddddddd](https://github.com/KristopherMackowiak/ha_voice_assistant),
-
 Questo progetto è un fork ottimizzato di [ha_voice_assistant di Kristopher Mackowiak](https://github.com/KristopherMackowiak/ha_voice_assistant), arricchito con funzionalità esclusive per il debug e una migliore esperienza utente.
 
 > **⚠️ Nota:** In questo repository trovi il file `.bin` precompilato. Non serve installare ESPHome o compilare codice. Basta flasharlo!
+
+## 📚 Guida Completa:
+Trovi la guida dettagliata sul sito: [ddddddd](https://github.com/KristopherMackowiak/ha_voice_assistant),
 
 ## ✨ Novità "Jarvis Pro"
 

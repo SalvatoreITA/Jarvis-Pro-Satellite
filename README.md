@@ -4,10 +4,13 @@
 [![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/SalvatoreITA/Jarvis-Pro-Satellite/blob/main/README.md)
 
 [![hacs_badge](https://img.shields.io/badge/HACS-Custom-41BDF5.svg)](https://github.com/hacs/integration)
-[![version](https://img.shields.io/badge/version-1.0.o-blue.svg)]()
+[![version](https://img.shields.io/badge/version-1.0.0-blue.svg)]()
 [![maintainer](https://img.shields.io/badge/maintainer-Salvatore_Lentini_--_DomHouse.it-green.svg)](https://www.domhouse.it)
 
 **Jarvis Pro** è un firmware personalizzato per **ESP32-S3** che trasforma il tuo dispositivo in un satellite vocale avanzato per Home Assistant.
+
+## 🚀 Guida Completa:
+Trovi la guida dettagliata sul sito: [ddddddd](https://github.com/KristopherMackowiak/ha_voice_assistant),
 
 Questo progetto è un fork ottimizzato di [ha_voice_assistant di Kristopher Mackowiak](https://github.com/KristopherMackowiak/ha_voice_assistant), arricchito con funzionalità esclusive per il debug e una migliore esperienza utente.
 
@@ -24,17 +27,7 @@ Rispetto al progetto originale, questa versione include:
 * 🔊 **Nuovi Suoni:** Feedback sonori aggiuntivi per errori di connessione o scadenza cloud.
 * 🆘 **Access Point di Emergenza:** Se non trova il WiFi, dopo 60 secondi crea una rete `Voice Assistant` per configurarlo col telefono.
 
-## 🛠️ Hardware Supportato
-
-Questo firmware è compilato specificamente per **ESP32-S3** con questa configurazione PIN:
-
-| Componente | Pin (GPIO) |
-| :--- | :--- |
-| **Microfono (I2S)** | WS=14, SCK=13, SD=15 |
-| **Speaker (I2S)** | LRC=7, BCLK=8, DIN=10 |
-| **LED Ring** | GPIO 21 |
-
-## 🚀 Come Installare (Facile)
+## 🚀 Come Installare
 
 Non serve saper programmare. Segui questi passi:
 
@@ -62,19 +55,31 @@ Una volta connesso al WiFi:
 3.  Clicca su **Configura** e segui i passaggi.
 4.  Vai nelle impostazioni del dispositivo e abilita i nuovi sensori di debug.
 
-## 📄 Crediti e Licenza
+## ⚠️ Disclaimer (Esclusione di Responsabilità)
 
+L'utilizzo di questo file binario (`.bin`) implica l'accettazione dei seguenti termini:
+
+### 1. Fornitura "Così com'è" (As-Is)
+Il presente firmware viene fornito **"così com'è"**, senza garanzie di alcun tipo, esplicite o implicite, incluse, a titolo esemplificativo, garanzie di commerciabilità o idoneità a uno scopo specifico. L'autore non garantisce che le funzioni contenute nel firmware soddisfino le esigenze dell'utente o che il funzionamento sia privo di errori.
+
+### 2. Assunzione del Rischio
+L'installazione di firmware non ufficiali o modificati comporta rischi intrinseci. L'utente si assume la **piena e totale responsabilità** per qualsiasi operazione di "flashing" o caricamento del firmware sul proprio hardware.
+
+### 3. Esclusione di Responsabilità per Danni
+In nessun caso l'autore potrà essere ritenuto responsabile per qualsiasi danno diretto, indiretto, incidentale o consequenziale, inclusi, ma non limitati a:
+
+* **Danni all'hardware:** Blocco irreversibile del dispositivo (*brick*), surriscaldamento o rottura di componenti.
+* **Perdita di dati:** Perdita di configurazioni o informazioni memorizzate sul dispositivo o sui sistemi connessi (es. Home Assistant).
+* **Malfunzionamenti:** Errori di rete, vulnerabilità di sicurezza o comportamenti imprevisti del dispositivo.
+
+### 4. Nessun Obbligo di Supporto
+L'autore, pur avendo apportato migliorie e fix al progetto originale, **non ha alcun obbligo** di fornire supporto tecnico, aggiornamenti o correzioni future.
+
+### 5. Relazione con il Progetto Originale
+Questo firmware è una versione indipendente e modificata. **Non è approvato, sponsorizzato o supportato** dall'autore del progetto originale né dai creatori di ESPHome.
+
+## ❤️ Crediti
 * **Sviluppo Originale:** [Kristopher Mackowiak](https://github.com/KristopherMackowiak/ha_voice_assistant)
-* **Modifiche:** Salvatore Lentini
+* **Modifiche:** [Salvatore Lentini](https://domhouse.it)
 * **Tecnologia:** Basato su [ESPHome](https://esphome.io) e [microWakeWord](https://github.com/kahrendt/microWakeWord).
 
-## ⚖️ Limitazione di Responsabilità
-
-IN NESSUN CASO L'AUTORE O I DETENTORI DEL COPYRIGHT SARANNO RESPONSABILI PER QUALSIASI RECLAMO, DANNO O ALTRA RESPONSABILITÀ, SIA IN UN'AZIONE DI CONTRATTO, ILLECITO O ALTRO, DERIVANTE DA, O IN CONNESSIONE CON IL SOFTWARE O L'USO O ALTRE OPERAZIONI NEL SOFTWARE.
-
-L'UTENTE SI ASSUME LA PIENA RESPONSABILITÀ PER:
-* LA CONFIGURAZIONE DELL'HARDWARE ESP32.
-* I COLLEGAMENTI ELETTRICI DEI COMPONENTI (MICROFONI, SPEAKER, LED).
-* L'USO DEL DISPOSITIVO IN AMBIENTE DOMESTICO.
-
-IL FIRMWARE VIENE DISTRIBUITO A SCOPO EDUCATIVO E DI TEST. NON È UN PRODOTTO CERTIFICATO PER USO COMMERCIALE O DI SICUREZZA CRITICA.

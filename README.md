@@ -14,7 +14,7 @@ Questo progetto è un fork ottimizzato di [Kristopher Mackowiak](https://github.
 > **⚠️ Nota:** In questo repository trovi il file `.bin` precompilato. Non serve installare ESPHome o compilare codice. Basta flasharlo!
 
 ## 📚 Guida Completa:
-Trovi la guida dettagliata sul sito: [ddddddd](https://github.com/KristopherMackowiak/ha_voice_assistant),
+Trovi la guida dettagliata sul sito: [Addio Alexa? Parte 6: Costruisci il tuo Smart Speaker](https://domhiuse.it/addio-alexa-parte-6-costruisci-il-tuo-smart-speaker),
 
 ## ✨ Novità "Jarvis Pro"
 

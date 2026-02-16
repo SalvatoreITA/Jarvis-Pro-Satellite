@@ -31,7 +31,7 @@ Rispetto al progetto originale, questa versione include:
 
 Non serve saper programmare. Segui questi passi:
 
-1.  **Scarica il file:** Scarica il file `jarvis-pro.bin` dalla sezione [Releases](https://github.com/SalvatoreITA/Jarvis-Pro-Satellite/releases) di questo repository.
+1.  **Scarica il file:** Scarica il file `jarvis-pro.bin` dalla sezione [Release](https://github.com/SalvatoreITA/Jarvis-Pro-Satellite/releases) di questo repository.
 2.  **Collega l'ESP32:** Attacca il tuo ESP32-S3 al computer via USB.
 3.  **Usa ESPHome Web:**
     * Vai su [web.esphome.io](https://web.esphome.io/).

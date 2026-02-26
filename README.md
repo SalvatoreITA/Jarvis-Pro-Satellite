@@ -78,6 +78,11 @@ L'autore, pur avendo apportato migliorie e fix al progetto originale, **non ha a
 ### 5. Relazione con il Progetto Originale
 Questo firmware è una versione indipendente e modificata. **Non è approvato, sponsorizzato o supportato** dall'autore del progetto originale né dai creatori di ESPHome.
 
+## ☕ Supporta il Progetto
+Ogni piccolo supporto fa un'enorme differenza: mi aiuta a mantenere vivo l'entusiasmo e mi stimola a creare e condividere nuove soluzioni per la community. Grazie di cuore per il tuo aiuto! 🚀
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/salvatore_dh)
+
 ## ❤️ Crediti
 * **Sviluppo Originale:** [Kristopher Mackowiak](https://github.com/KristopherMackowiak/ha_voice_assistant)
 * **Modifiche:** [Salvatore Lentini](https://domhouse.it)
